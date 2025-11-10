@@ -62,18 +62,24 @@ Dashboard ECU receives and displays these values.
 
 Sensor Node Sends:
 
-Speed = 60 km/h
+Speed = 60 
+
 RPM   = 3000
-Gear  = 4
+
+Gear  = ON
+
 Indicator = -> or <-
 
 
 **Dashboard Displays:**
 
 Speed : 60
+
 RPM   : 3000
-Gear  : 4
-Indicator = -> or <-
+
+Gear  : ON
+
+Indicator : -> or <-
 
 **How It Works**
 
@@ -102,4 +108,5 @@ Indicator = -> or <-
 Author
 
 Chintala Lavanya
+
 Email: chintalalavanya634@gmail.com
