@@ -4,11 +4,11 @@ CAN Automation Dash Board Using PIC18F4580
 
 **Description**
 
-1.This project is implemented using CAN protocol to communicate between two ECUs.
+1.This project is implemented using CAN protocol to communicate between three ECUs.
 
-2.One ECU works as a sensor node and sends vehicle parameters like speed, RPM, and gear and Indicator.
+2.ECU1 and ECU2 works as a sensor node and sends vehicle parameters like speed, RPM, and gear and Indicator.
 
-3.Second ECU works as dashboard node and receives CAN data.
+3.ECU3 works as dashboard node and receives CAN data.
 
 4.Dashboard displays the received information on Seven Segment Display / CLCD.
 
@@ -34,9 +34,9 @@ matrix_keypad.c / matrix_keypad.h - keypad input functions
 
 1.Uses PIC18F4580 microcontroller with CAN module.
 
-2.Sensor ECU sends vehicle parameters continuously.
+2.Sensor ECU1 & ECU2 sends vehicle parameters continuously.
 
-3.Dashboard ECU receives and displays parameters.
+3.Dashboard ECU3 receives and displays parameters.
 
 4.Demonstrates reliable CAN communication between ECUs.
 
@@ -52,11 +52,11 @@ matrix_keypad.c / matrix_keypad.h - keypad input functions
 
 **USAGE**
 
-Connect both ECUs through CAN bus.
+Connect three ECUs through CAN bus.
 
-Sensor ECU sends Speed, RPM, Gear and Indicator values.
+Sensor ECU1 and ECU2 sends Speed, RPM, Gear and Indicator values.
 
-Dashboard ECU receives and displays these values.
+Dashboard ECU3 receives and displays these values.
 
 **Example**
 
@@ -83,13 +83,13 @@ Indicator : -> or <-
 
 **How It Works**
 
-1.Initialize CAN module in both ECUs.
+1.Initialize CAN module in three ECUs.
 
 2.Sensor node forms CAN message containing Speed, Gear, RPM, Indicator.
 
 3.CAN message is transmitted on bus.
 
-4.Dashboard ECU receives CAN message.
+4.Dashboard ECU3 receives CAN message.
 
 5.Extracts received values.
 
