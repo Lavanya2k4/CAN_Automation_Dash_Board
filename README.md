@@ -10,7 +10,7 @@ CAN Automation Dash Board Using PIC18F4580
 
 3.Second ECU works as dashboard node and receives CAN data.
 
-4.Dashboard displays the received information on Seven Segment Display / LCD.
+4.Dashboard displays the received information on Seven Segment Display / CLCD.
 
 **Files in This Project**
 
